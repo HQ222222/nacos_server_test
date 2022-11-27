@@ -1,0 +1,10 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: woe-server
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        ephemeral: false
